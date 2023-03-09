@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(116, 116, 202);
+}
+.div1{
+    position: relative;
+    
+}
+.form{
+    background-color: white;
+    margin-left: 25%;
+    margin-right:30% ;
+    font-size: 30px;
+    position: relative;
+    text-overflow: hidden;
+    border-radius: 6px;
+    border-color: black;
+
+
+    
+}
+.form .form1{
+    margin-right: 30%;
+    font-size: 30px;
+    display: flex;
+    margin-left: 10%;
+    width: 80%;
+    border: solid 4px;
+    border-radius: 20px;
+}
+.form .copy{
+    background-color: white;
+    position: absolute;
+    margin-left: 85%;
+    margin-top: 6px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.form .number{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: -5%;
+}
+.form .bar{
+    width: 95%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+.form .submit{
+    background-color: rgb(64, 64, 226,0.7);
+    color: white;
+    font-size: 30px;
+    margin-left: 20%;
+    border-radius: 4px;
+    transition: 0.5 ease-in-out;
+    cursor: pointer;
+}
+.form .submit:hover{
+    background-color: white;
+    color: rgb(64, 64, 226,0.7);
+}
+.form .form1{
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+}
+#tick{
+    display:none;
+ }
+ #copy:hover{
+    background-color: aqua;
+    color: rgb(81, 81, 215);
+ }

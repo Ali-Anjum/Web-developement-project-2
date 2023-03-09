@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.css"  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"  />
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+   <title>Document</title>
+</head>
+<body>
+<section>
+    <div >
+        
+        <div>
+            <form id="form" class="form">
+                <h1 >Random password generator</h1>
+                <span id="icon" onclick="copyClp" ><i id="copy"  class="far fa-copy copy"></i><i id="tick" class="fa-solid fa-check copy"></i></span>
+                <input id="form1" class="form1"  value="error"  >
+                <label class="1"></label>
+                <label class="range1"> Password length</label><br>
+                <input id="bar" type="range" class="range1 bar" min="4" max="100" value="4"   >
+                <p>total letters:<span id="demo" > 0</span></p>
+                <input  class="num"id="num" type="checkbox"  >
+                <label class="num"  > Include Numbers</label><br>   
+                <input id="sb"  class="specsym" type="checkbox" >
+                <label class="specsym" > Include symbols</label><br>   
+                <input id="up" class="num" type="checkbox" value="false" >
+                <label  class="num" > Include uppercase</label><br>   
+
+                <input  id="lc" type="checkbox" class="lc"  >
+                <label  class="lc"  > Include lowercase</label><br>
+                <button id="submit" class="submit" type="button" > generate password</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<script src="index.js"></script>
+
+</body>
+</html>
